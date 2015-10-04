@@ -1,7 +1,6 @@
 todo.App = function(options) {
 	// refer to the todo.js file to see options
 	this.el = document.querySelector(options.el);
-
 	this.items = options.items || [];
 
 	this.render();

@@ -7,7 +7,6 @@ var todo = {
   },
   // Pass true to enable debug mode, which starts with no data from the server.
   init: function(debug) {
-    console.log('Starting todo app...');
     todo.api.sendRequest({
       method: 'GET',
       endpoint: 'http://localhost:3000/todos'
